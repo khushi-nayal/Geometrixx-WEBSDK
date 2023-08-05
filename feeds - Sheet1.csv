@@ -1,28 +1,18 @@
-## RECSRecommendations Upload File								
-## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines.								
-## RECS								
-## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left.								
-## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'.								
-## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations.								
-## RECSentity.id	entity.name	entity.categoryId	entity.message	entity.thumbnailUrl	entity.value	entity.pageUrl	entity.inventory	entity.margin
-200240	Corduroy Blazer	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active3.jpg	-	-	-	-
-200241	Military Jacket	men	-	http://ats-sb.adobe.com/jjsite/include/images/active_men.jpg	-	-	-	-
-200242	Casual Jacket	men	-	https://www.google.com/imgres?imgurl=https%3A%2F%2Fwoollen-wear.in%2Fcdn-cgi%2Fimagedelivery%2FZMUrshz-omHo_iJ4haWPew%2Fjackets%2FLure%2520new%2520images-2021%2FEM22102%2F22102-olive-front2-500x636.jpg%2Fpublic&tbnid=ozyC1AI7kSmz-M&vet=12ahUKEwihl63ykMGAAxULzaACHbmEBzQQMygJegUIARCEAg..i&imgrefurl=https%3A%2F%2Fwoollen-wear.in%2Fmen-jacket-olive-em22102&docid=IAW67hAt0Dxb-M&w=500&h=636&q=mens%20jacket&ved=2ahUKEwihl63ykMGAAxULzaACHbmEBzQQMygJegUIARCEAg	-	-	-	-
-200243	T-shirt	men	-	https://www.google.com/imgres?imgurl=https%3A%2F%2Frukminim2.flixcart.com%2Fimage%2F550%2F650%2Fxif0q%2Ft-shirt%2Fr%2Fv%2Fk%2Fm-ausk0165-ausk-original-imaghu9fbhcgf2za.jpeg%3Fq%3D90%26crop%3Dfalse&tbnid=kXi6kv_LZKOxgM&vet=12ahUKEwj62LjckMGAAxWg6DgGHVwgDQwQMygJegUIARCFAw..i&imgrefurl=https%3A%2F%2Fwww.flipkart.com%2Fmens-tshirts%2Fpr%3Fsid%3Dclo%252Cash%252Cank%252Cedy&docid=_8XqALMnN_qQGM&w=433&h=650&q=mens%20tshirt&ved=2ahUKEwj62LjckMGAAxWg6DgGHVwgDQwQMygJegUIARCFAw	-	-	-	-
-200244	Sport Jacket	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active4.jpg	-	-	-	-
-200233	Hooded Sweater	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active2.jpg	-	-	-	-
-201240	Two-button Suit	men	-	http://ats-sb.adobe.com/jjsite/include/images/fa_man.jpg	-	-	-	-
-201241	Blue Shirt	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel4.jpg	-	-	-	-
-201244	French Cuff Shirt	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel3.jpg	-	-	-	-
-200240	Tuxedo	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel2.jpg	-	-	-	-
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
+## RECSRecommendations Upload File									
+## RECS''## RECS'' indicates a Recommendations pre-process header. Please do not remove these lines.									
+## RECS									
+## RECSUse this file to upload product display information to Recommendations. Each product has its own row. Each line must contain 19 values and if not all are filled a space should be left.									
+## RECSThe last 100 columns (entity.custom1 - entity.custom100) are custom. The name 'customN' can be replaced with a custom name such as 'onSale' or 'brand'.									
+## RECSIf the products already exist in Recommendations then changes uploaded here will override the data in Recommendations. Any new attributes entered here will be added to the product''s entry in Recommendations.									
+## RECSentity.id	entity.name	entity.categoryId	entity.message	entity.thumbnailUrl	entity.value	entity.pageUrl	entity.inventory	entity.margin	entity.brand
+200240	Corduroy Blazer	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active3.jpg	709.99	-	-	-	Sundance Casual
+200241	Military Jacket	men	-	http://ats-sb.adobe.com/jjsite/include/images/active_men.jpg	750	-	-	-	Uintah Modern
+200242	Casual Jacket	men	-	https://www.google.com/imgres?imgurl=https%3A%2F%2Fwoollen-wear.in%2Fcdn-cgi%2Fimagedelivery%2FZMUrshz-omHo_iJ4haWPew%2Fjackets%2FLure%2520new%2520images-2021%2FEM22102%2F22102-olive-front2-500x636.jpg%2Fpublic&tbnid=ozyC1AI7kSmz-M&vet=12ahUKEwihl63ykMGAAxULzaACHbmEBzQQMygJegUIARCEAg..i&imgrefurl=https%3A%2F%2Fwoollen-wear.in%2Fmen-jacket-olive-em22102&docid=IAW67hAt0Dxb-M&w=500&h=636&q=mens%20jacket&ved=2ahUKEwihl63ykMGAAxULzaACHbmEBzQQMygJegUIARCEAg	-	-	-	-	
+200243	T-shirt	men	-	https://www.google.com/imgres?imgurl=https%3A%2F%2Frukminim2.flixcart.com%2Fimage%2F550%2F650%2Fxif0q%2Ft-shirt%2Fr%2Fv%2Fk%2Fm-ausk0165-ausk-original-imaghu9fbhcgf2za.jpeg%3Fq%3D90%26crop%3Dfalse&tbnid=kXi6kv_LZKOxgM&vet=12ahUKEwj62LjckMGAAxWg6DgGHVwgDQwQMygJegUIARCFAw..i&imgrefurl=https%3A%2F%2Fwww.flipkart.com%2Fmens-tshirts%2Fpr%3Fsid%3Dclo%252Cash%252Cank%252Cedy&docid=_8XqALMnN_qQGM&w=433&h=650&q=mens%20tshirt&ved=2ahUKEwj62LjckMGAAxWg6DgGHVwgDQwQMygJegUIARCFAw	-	-	-	-	
+200244	Sport Jacket	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active4.jpg	240	-	-	-	Wasatch Sport
+200233	Hooded Sweater	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-active2.jpg	450	-	-	-	Sith Lord Clothiers
+201240	Two-button Suit	men	-	http://ats-sb.adobe.com/jjsite/include/images/fa_man.jpg	1850	-	-	-	Sawyer Ville Roe
+201241	Blue Shirt	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel4.jpg	289.99	-	-	-	Suomi Shirt
+201244	French Cuff Shirt	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel3.jpg	309.99	-	-	-	Wellington Ltd
+200240	Tuxedo	men	-	http://ats-sb.adobe.com/jjsite/include/images/man-apparel2.jpg	2600	-	-	-	Ludwig won
+									
