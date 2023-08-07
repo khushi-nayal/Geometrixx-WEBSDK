@@ -4,23 +4,53 @@
 
 <head>
 	<title>Geometrixx Clothiers</title>
-	
 	<script>
-        var digitalData = digitalData || {};
-        digitalData = {
-            page: {
-                pageName: "Home Page",
-                siteSection: "",
-                siteSubsection: "LandingPage",
-                server: "geometrix"
-            },
-             "category": {
-                "primaryCategory": "na", 
-                 "subCategory1": "na",
-                "subCategory2": "na"
- 		} ,
-        };
-    	</script>
+	window.digitalData = {
+	  "page": {
+	    "pageInfo": {
+	      "pageName": 'geometrixxClothiers:' + document.title,
+	      "destinationURL":  encodeURIComponent(window.location.href),
+	      "hierarchie1": "geometrixx:us:en",
+	      "title": "Geometrixx Clothiers Web SDK",
+	      "internalPageName": "en",
+	      "pageID": document.title,
+	      "tagging": "",
+	      "server": "geometrix"
+	    },
+	    "category": {
+	      "type": ":conf:we-retail:settings:wcm:templates:hero-page",
+	      "version": "2023-8-3"
+	    },
+	    "attributes": {},
+	    "components": []
+	  },
+	  "product": [
+	    {
+	      "productInfo": {}
+	    }
+	  ],
+	  "cart": {
+	    "productsInCart": 0
+	  },
+	  "user": [
+	    {
+	      "profile": [
+	        {
+	          "profileInfo": {},
+	          "attributes": {
+	            "loggedIn": false
+	          }
+	        }
+	      ]
+	    }
+	  ],
+	  "pageInstanceID": "s7connect:publish:content:luma:us:en",
+	  "language": "en"
+	};
+	window.digitalData.page.pageInfo.referringURL = document.referrer;
+	window.digitalData.page.pageInfo.sysEnv = navigator.userAgent;
+	</script>
+	
 	<script>
 		digitalData = {
             pageInstanceID: "Geometrixx Clothiers",
